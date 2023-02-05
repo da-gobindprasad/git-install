@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {% block body %}
+
+
+<div class="container">
+    <div class="row m-5">
+        <div class="col-md-6">
+            <img style="height:400px" class="card" src="{{ object.product_image }}">
+        </div>
+
+        <div class="col-md-6">
+            <h1> {{ object.product_name }} </h1>
+            <h2> {{ object.product_description }} </h2>
+            <h3> {{ object.product_price }} </h3>
+
+            <a class="btn btn-danger" href="#">Delete</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
