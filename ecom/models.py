@@ -2,6 +2,8 @@ from django.db import models
 
 # Create your models here.
 
+# product data table
+
 
 class Products(models.Model):
 
